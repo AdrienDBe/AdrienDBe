@@ -1,6 +1,7 @@
 - Bonjour 👋, I am @AdrienDBe
-- I define myself professionally somewhere between an Analyst and a Program Manager
-- Just here for fun, currently reinforcing my ML experience working on projects I will publish in a public repo soon + my dataviz skills by implementing Plotly everywhere I can 📈
+- Analyst/Program Manager AI curious
+- Currently reinforcing my ML experience working on projects I will publish in a public repo soon
+- Dedicated to neat dataviz 📈
 - Feel free to reach out to me at adrien.debruge@protonmail.com
 
 <!---
