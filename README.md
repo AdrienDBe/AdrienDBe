@@ -1,4 +1,4 @@
-- Bonjour 👋, I am @AdrienDBe
+- Bonjour 👋, I am Adrien D.
 - Analyst/Program Manager AI curious
 - Currently reinforcing my ML experience working on projects I will publish in a public repo soon
 - Dedicated to neat dataviz 📈
