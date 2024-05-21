@@ -1,5 +1,5 @@
 Bonjour 👋, I am Adrien D.
-<br /> You can check out my streamlit apps <a href='https://adriendbe-streamlit-app-home-1mtgr5.streamlitapp.com/'> here </a> 
+<br /> You can check out my streamlit apps <a href='[https://adriendbe-streamlit-app-home-1mtgr5.streamlitapp.com](https://adrien.streamlit.app/)/'> here </a> 
 
 <!---
 AdrienDBe/AdrienDBe is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
