@@ -1,0 +1,19 @@
+# Ops board check for ops-bot (github.com/users/AdrienDBe/projects/1): labels
+# cards dragged to "Ready for Claude" and deletes issues removed from the board.
+# Lives in this public repo because public repos get unlimited Actions minutes.
+# The secret is in this repo's Actions secrets; only the URL is visible here.
+name: ops-board-sweep
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+permissions: {}
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - run: |
+          curl -sS --fail-with-body --max-time 60 -X POST \
+            -H "Authorization: Bearer ${{ secrets.OPS_BOT_SWEEP_SECRET }}" \
+            "https://ops-bot-neon.vercel.app/api/github?task=sweep"
